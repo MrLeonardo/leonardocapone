@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+
+        <title>Leonardo Capone</title>
+
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+
+        <script src="js/lib/jquery-3.1.1.min.js"></script>
+		<script src="js/lib/bootstrap.min.js"></script>    
+		<script src="js/lib/jquery.stellar.js"></script> 
+        <script src="js/lib/xml2json.min.js"></script>
+        <script src="js/lib/angular.min.js"></script>
+		
+        <script src="js/app.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/controller/index.js"></script>
+        <script src="js/direttive/studio.js"></script>
+        <script src="js/direttive/esperienza.js"></script>
+        <script src="js/direttive/progetto.js"></script>
+        <script src="js/direttive/contatto.js"></script>
+        <script src="js/direttive/image.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target="#my-navbar">
+        <div ng-app="leonardocapone" ng-controller="indexController">
+            <div ng-init="getConfig()">
+                <div class="container">            
+                    <div class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">	     
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">{{config.home}}</a>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                               <li><a href="#studi">{{config.studi}}</a></li>
+                               <li><a href="#esperienze">{{config.esperienze}}</a></li>
+                               <li><a href="#skills">{{config.skills}}</a></li>
+                               <li><a href="#progetti">{{config.progetti}}</a></li>
+                               <li><a href="#contatti">{{config.contatti}}</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->	    
+                    </div>
+                </div>
+                <div class="full-panel" id="home">   
+                    <div id="copertina">
+                        {{config.titolo}}
+                    </div>   
+                </div> 
+                <div class="my-container">
+                    <div class="row">
+                        <div class="col-md-12 full-panel studi" data-stellar-background-ratio="0.5">
+                            <div class="in-panel" id="studi">
+                                <div class="row">							
+                                    <div class="row">
+                                        <h2>{{config.studi}}</h2>
+                                    </div>
+                                    <div ng-init="getStudi()">
+                                        <div ng-repeat="studio in studi">
+                                            <studio studio="studio"></studio>
+                                        </div>						
+                                    </div>
+                                </div>
+                            </div>
+                        </div>		  
+
+                        <image image="backgroundstudi"></image>
+
+                        <div class="col-md-12 full-panel esperienze" data-stellar-background-ratio="0.5">
+                            <div class="in-panel" id="esperienze">
+                                <div class="row">							
+                                    <div class="row">
+                                        <h2>{{config.esperienze}}</h2>
+                                    </div>
+                                    <div ng-init="getEsperienze()">
+                                        <div ng-repeat="esperienza in esperienze">
+                                            <esperienza esperienza="esperienza"></esperienza>
+                                        </div>	
+                                    </div>
+                                </div>					
+                            </div>
+                        </div>
+
+                        <image image="backgroundesperienza"></image>
+
+                        <div class="col-md-12 full-panel skills" data-stellar-background-ratio="0.5">
+                            <div class="in-panel" id="skills">
+                                <div class="row">						
+                                    <div class="row">
+                                        <h2>{{config.skills}}</h2>
+                                    </div>
+                                    <div ng-init="getSkills()">
+                                        <div class="row">
+                                            <p>
+                                                <span ng-repeat="skill in skills">
+                                                    {{skill}}
+                                                </span>
+                                            </p>
+                                        </div>	
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <image image="backgroundskills"></image>
+
+                        <div class="col-md-12 full-panel progetti" data-stellar-background-ratio="0.5">
+                            <div class="in-panel" id="progetti">
+                                <div class="row">							
+                                    <div class="row">
+                                        <h2>{{config.progetti}}</h2>
+                                    </div>
+                                    <div ng-init="getProgetti()">
+                                        <div class="row">		
+                                            <div ng-repeat="progetto in progetti">
+                                                <progetto progetto="progetto"></progetto>
+                                            </div>	
+                                        </div>
+                                    </div>
+                                </div>				  		
+                            </div>
+                        </div>
+
+                        <image image="backgroundprogetti"></image>
+
+                        <div class="col-md-12 full-panel contatti" data-stellar-background-ratio="0.5">
+                            <div class="in-panel" id="contatti">
+                                <div class="row">							
+                                    <div class="row">
+                                        <h2>{{config.contatti}}</h2>
+                                    </div>
+                                    <br><br>
+                                    <div ng-init="getContatti()">
+                                        <div class="row">	
+                                            <div ng-repeat="contatto in contatti">
+                                                <contatto contatto="contatto"></contatto>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>			  		
+                            </div>
+                        </div>
+
+                        <image image="backgroundcontatti"></image>                
+                    </div>			
+                    <div class="col-md-12 full-panel footer">	
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

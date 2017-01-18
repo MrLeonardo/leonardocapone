@@ -1,0 +1,97 @@
+<progetti>
+    <progetto>
+        <titolo>Tesi di Laurea</titolo>
+        <descrizione>        										
+            Analisi dei Social Network: Implementazione di nuovi algoritmi
+            per il problema dell’Influence Maximization
+            Il problema dell’Influence Maximization
+            consiste nel cercare i nodi più influenti
+            in un Social Network.
+            Il lavoro di tesi ha portato alla realizzazione 
+            di due nuovi algoritmi che risolvono il problema.
+            GLi algoritmi sono stati implementati usando C++. 
+            In seguito alla tesi è stato realizzato un articolo
+            per la conferenza aica2013.
+        </descrizione>
+    </progetto>
+    <progetto>
+        <titolo>Software per la scoperta di pattern nei dati e il clustering sui dati</titolo>
+        <descrizione>
+            Il progetto svolto in un team di tre persone 
+            nell'ambito del data mining, 
+            consiste nell'uso dell'algoritmo "Apriori" per 
+            la scoperta di pattern nei dati e
+            nell'uso dell'algoritmo "Kmeans" per il clustering sui dati.
+La realizzazione del progetto è stata fatta in Java.</descrizione>
+    </progetto>
+    <progetto>
+        <titolo>MoveRobot</titolo>
+        <descrizione>
+            Sistema esperto per il movimento di un robot in
+            un'ambiente sconosciuto
+            Il Progetto è stato sviluppato in maniera autonoma in
+            ambito universitario.
+            Consiste nell'analisi e implementazione 
+            di un sistema esperto per la gestione, 
+            attraverso l'uso del paradigma logico, 
+            del movimento di un robot in ambienti sconosciuti 
+            e che cambiano dinamicamente nel tempo.
+            L'implementazione è stata realizzata usando
+            Java e CLIPS.   
+        </descrizione>
+    </progetto>
+    <progetto>
+        <titolo>librerie per la gestione e realizzazione di Strutture Dati</titolo>
+        <descrizione>							
+            Matrici, Liste, Pile, Code, Alberi Binari, Alberi n-ari, Grafi, Code con Priorità, Dizionari
+            Le libreire sono state sviluppate in C.
+        </descrizione>
+    </progetto>
+    <progetto>
+        <titolo>Sailing</titolo>
+        <descrizione>	 
+            App per iPhone
+            Il progetto è stato realizzato in un team.
+            L'app ha come target le barche a vela, 
+            il suo scopo è quello di simulare la bussola 
+            usando il gps, in modo da evitare gli errori dovuti alla 
+            bussola magnetica e di segnare la rotta in navigazione.
+            La realizzazione è stata fatta in Objective-C 
+            con l'uso di XCode.
+        </descrizione>
+    </progetto>
+    <progetto>
+        <titolo>AllarmSensor</titolo>
+        <descrizione>
+            App per Windows Mobile
+            L'app è stata realizzata in coppia
+            e ha come scopo quello di gestire eventuali anomalie 
+            (temperatura alta, pericolo, errori dei sensori, ecc..)
+            in un laboratorio usando un dispositivo mobile.
+            Il progetto consiste in una parte di analisi requisiti
+            e UML e successiva realizzazione in C\# per windows mobile.
+        </descrizione>
+    </progetto>
+    <progetto>
+        <titolo>HyperRace 2097</titolo>
+        <descrizione> 
+            Videogame di corse con moto futuristiche
+            HyperRace 2097 è un videogioco di moto
+            realizzato in coppia con l'uso di Unity3D.
+        </descrizione>
+    </progetto>
+    <progetto>
+        <titolo>Strutture Dati e Algoritmi in Scilab e Haskell</titolo>
+        <descrizione>
+            Realizzazione di strutture dati e algoritmi matematici
+            attraverso l'uso del paradigma funzionale.
+        </descrizione>
+    </progetto>
+    <progetto>
+        <titolo>Progetti con Arduino</titolo>
+        <descrizione> 
+            Realizzazione per hobby di piccoli progetti 
+            con Arduino.
+        </descrizione>
+    </progetto>
+</progetti>

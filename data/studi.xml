@@ -1,0 +1,14 @@
+<studi>
+    <studio>
+        <anno>2013</anno>
+        <titolo>Laurea in Informatica</titolo>
+        <istituto>Facoltà di Scienze MM.FF.NN</istituto>
+        <nomeIstituto>Università degli Studi di Bari "Aldo Moro"</nomeIstituto>
+    </studio>
+    <studio>
+        <anno>2008</anno>
+        <titolo>Diploma di Perito Agrario</titolo>
+        <istituto></istituto>
+        <nomeIstituto>I.T.A.S. G. Briganti, Matera</nomeIstituto>
+    </studio>
+</studi>

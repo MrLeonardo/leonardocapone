@@ -1,0 +1,83 @@
+<esperienze>
+    <esperienza>
+        <anno>2016 - Attuale</anno>
+        <ruolo>Sviluppatore Software</ruolo>        
+        <sitoInternetAzienda>http://www.nomos.it</sitoInternetAzienda>
+        <azienda>Nomos</azienda>
+        <luogo>Desenzano del Garda</luogo>
+        <descrizione></descrizione>
+    </esperienza>
+    
+    <esperienza>
+        <anno>2016 - 2016</anno>
+        <ruolo>Sviluppatore Software</ruolo>        
+        <sitoInternetAzienda>http://www.kline.it/</sitoInternetAzienda>
+        <azienda>Kline s.r.l.</azienda>
+        <luogo>Leno</luogo>
+        <descrizione>
+            - Progettazione e sviluppo software.
+            - Bug fix.
+            - Analisi e documentazione.
+            - Linguaggi, tool, framework, pattern
+            usati Delphi, PL/SQLC, Oracle, WinMerge"
+        </descrizione>
+    </esperienza>
+    
+    <esperienza>
+        <anno>2015 - 2016</anno>
+        <ruolo>Sviluppatore Software</ruolo>
+        <sitoInternetAzienda>http://www.dos-donts.com/it</sitoInternetAzienda>
+        <azienda>DosDonts</azienda>
+        <luogo>Rho</luogo>
+        <descrizione>
+            - Progettazione e sviluppo software. 
+            - Gestione sito web. 
+            - Restyling di Web Application. 
+            - Linguaggi, tool, framework, pattern 
+            usati C\#, C, C++, ASP.NET, Visual Studio, 
+            HTML, CSS, Javascript, JQuery, Bootstrap, AJAX, 
+            SQL, MySQL, Apache, IIS, Visual Studio, SVN.
+        </descrizione>
+    </esperienza>
+    
+    <esperienza>
+        <anno>2014 - 2015</anno>
+        <ruolo>Sviluppatore Software</ruolo>        
+        <sitoInternetAzienda>http://www.reply.eu/it/</sitoInternetAzienda>
+        <azienda>Reply s.p.a.</azienda>
+        <luogo>Milano</luogo>
+        <descrizione>
+            - Implementazione della parte front-end, back-end 
+            e servizi REST di un e-commerce. 
+            - Linguaggi, tool, framework, pattern 
+            usati Java, J2EE, JavaScript, CSS, HTML, JQuery, SQL,
+            XML, WCS, RAD, WebSphere, JSP, JSF, JSTL, Eclipse, 
+            SVN, IBM Rational Application, SoapUI, Oracle, 
+            MVC, Struts, Oracle, Web Service EJB, Aurora, Tortoise.
+        </descrizione>
+    </esperienza>
+    
+    <esperienza>
+        <anno>2013 - 2014</anno>
+        <ruolo>Sviluppatore Software</ruolo>       
+        <sitoInternetAzienda>http://www.nemosweb.it/index.html</sitoInternetAzienda>
+        <azienda>Nemos s.r.l.</azienda>
+        <luogo>Cremona</luogo>
+        <descrizione>
+            - Implementazione, Manutenzione, Progettazione 
+            della parte front-end e back-end di software per 
+            Card Management. 
+            Il software viene usato per la gestione delle 
+            carte di credito, carte di debito, telepass, 
+            viacard, ecc... 
+            - Programmazione di routine per allineamento del 
+            database, impianto di nuovi dati, manutenzione. 
+            Le routine sono sviluppate in Java. 
+            - Linguaggi, tool, framework, pattern 
+            usati Java, J2EE,Spring, Hibernate, 
+            MVC, JSP, Eclipse, SoapUI, 
+            SVN, , Roo, JavaScript, HTML, JSTL, Dojo, tagx, 
+            Microsoft SQL Server. 
+        </descrizione>
+    </esperienza>
+</esperienze>
