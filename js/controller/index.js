@@ -6,6 +6,8 @@ leonardocapone.controller("indexController", function($scope, $http){
     $scope.skills = [];
     $scope.contatti = [];
     
+    $scope.activeNav = "";
+    
     $scope.getConfig = function() {
         $http({
             url: urlConfig + "/data/config.xml", 
@@ -19,7 +21,7 @@ leonardocapone.controller("indexController", function($scope, $http){
         })
         .error(function (data, status, headers) {   
         });        
-    };
+    }
     
     $scope.getStudi = function() {
         $http({
@@ -36,7 +38,7 @@ leonardocapone.controller("indexController", function($scope, $http){
         })
         .error(function (data, status, headers) {   
         });         
-    };
+    }
     
     $scope.getEsperienze = function() {
         $http({
@@ -53,7 +55,7 @@ leonardocapone.controller("indexController", function($scope, $http){
         })
         .error(function (data, status, headers) {   
         });    
-    };
+    }
     
     $scope.getProgetti = function() {
         $http({
@@ -70,7 +72,7 @@ leonardocapone.controller("indexController", function($scope, $http){
         })
         .error(function (data, status, headers) {   
         });    
-    };
+    }
     
     $scope.getSkills = function() {
         $http({
@@ -87,7 +89,7 @@ leonardocapone.controller("indexController", function($scope, $http){
         })
         .error(function (data, status, headers) {   
         });     
-    };
+    }
     
     $scope.getContatti = function() {
         $http({
@@ -104,5 +106,9 @@ leonardocapone.controller("indexController", function($scope, $http){
         })
         .error(function (data, status, headers) {   
         });       
-    };    
+    }    
+    
+    $scope.selectNav = function(nav) {
+        $scope.activeNav = nav;
+    }
 });

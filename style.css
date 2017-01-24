@@ -1,7 +1,5 @@
-
 body, html {
 	padding: 0px;
-	overflow-x: hidden;
 	font-family: lato;
 }
 
@@ -22,7 +20,7 @@ body, html {
 	font-weight: 300
 }
 
-.my-container{
+.data-container{
 	width: 100%; 
 	float:left; 
 	width:100%;
@@ -34,15 +32,16 @@ body, html {
 	
 .in-panel {
 	width: 970px;
-	margin: 0 auto;
+	margin: auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 	
 .in-panel h2 {
-	margin-top: 120px;
 	text-transform: uppercase; 
 	font-weight: 300; 
 	font-size: 40px;
-	float: left; 
+    padding-bottom: 2%;
 }
 	
 .in-panel p {
@@ -52,26 +51,21 @@ body, html {
 	-moz-column-count: 2;
 	-webkit-column-count: 2;
 	column-count: 2;
-	margin-bottom: 90px	
 }
-				
+
+.active {
+    background: #000;
+}
+	
 strong {
 	font-size: 24px; 
 	font-weight: 300
 }
-	
-cite a {
-	color: #00ebbe;
-	font-weight: 700; 
-	text-transform: capitalize; 
-	font-style: italic;
-	font-size: 16px
-}
-	
+
 #home {
 	background: url(img/imgHome.jpg) no-repeat 100% 0 fixed;
 	height: 100vh;
-	position:relative;
+	position: relative;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -170,17 +164,13 @@ cite a {
 		font-size: 30px; 
 		font-weight: 300; 
 		margin-left: 0;
-		margin-bottom:0;
-		width:100%;
+		margin-bottom: 0;
+		width: 100%;
 	}
 
 	.in-panel {
 		width:90%; 
-		margin-right:5%
-	}
-
-	.in-panel h2 {
-		margin-top:70px;
+		margin-right:5%;
 	}
 
 	.in-panel p {
@@ -191,7 +181,7 @@ cite a {
 	}
 
 	.full-panel {
-		background-position: 0 0!important;
+		background-position: 0 0 !important;
 	}
 
 	.footer p {
