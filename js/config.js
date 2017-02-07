@@ -1,1 +1,1 @@
-var urlConfig = "http://127.0.0.1:58133"
+var urlConfig = "http://www.leonardocapone.it"
