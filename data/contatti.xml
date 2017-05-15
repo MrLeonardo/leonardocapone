@@ -7,4 +7,12 @@
         <tipo>cell.</tipo>
         <value>+39 3489081597</value>
     </contatto>
+    <contatto>
+        <tipo>LinkedIn</tipo>
+        <value>https://www.linkedin.com/in/leonardo-capone-64666b45/</value>
+    </contatto>
+    <contatto>
+        <tipo>Github</tipo>
+        <value>https://github.com/MrLeonardo</value>
+    </contatto>
 </contatti>
